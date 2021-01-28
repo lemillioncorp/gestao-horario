@@ -1,0 +1,27 @@
+.dados-login{
+    background-color: #fff;
+    color: green;
+    padding: 1.4em;
+    text-align: center;
+    text-transform: uppercase;
+    height: auto;
+    margin: .6em;
+    border-radius: 1rem;
+}
+.sair{
+    background-color: #ec0404;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: .4em;
+    margin-top: 1em;
+    text-decoration: none;
+    text-transform: initial;
+    border-radius: 40%;
+   width: 40%;
+}
+.sair:hover{
+    text-decoration: none;
+    background-color: #d1d0d0;
+    color: #ec0404;
+}

@@ -1,0 +1,19 @@
+/*FORMATAÇÃO DAS TABELAS*/
+table {border-collapse: collapse; width: 100%;}
+
+th, td {text-align: center; padding: 14px; border-left:3px solid #333232;}
+td{height: 3em;}
+
+/*EVENTOS*/
+td, tr:first{border-left: none;}
+tr:nth-child(even){background-color: #e4e2e2;}
+tr:hover{background-color: #c7c1c1;}
+
+/*TITULOS DE OUTROS*/
+h4, h5, h6{text-align: center; background-color: #f1f1f1; width: 100%; font-size: 12px;}
+
+/*CLASSES DE OBJETIVOS ESPECIFICO*/
+.dadosPosi{position: relative;margin-top: 10em;top: 15px;}
+.texto-centralizado{text-align:center;}
+.tamanho{font-size:14pt; /*font-size: 3rem;*/}
+.tamanho-td{font-size:11pt;}

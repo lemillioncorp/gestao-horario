@@ -1,0 +1,7 @@
+a Pasta backup - será a pasta aonde será armazenado  todos bancos de dados de reserva
+
+ Control - está pasta vai armazernar os docmentos php com funcões e acãoes e outra informação
+
+
+ Dataset - está pasta vai armazernar a conexão com o banco de dados
+

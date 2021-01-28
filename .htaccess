@@ -1,0 +1,14 @@
+# Quaisquer alterações nas diretivas entre esses marcadores serão sobrescritas.
+RewriteCond %{REQUEST_FILENAME} -s
+RewriteCond %{HTTP_USER_AGENT} !facebookexternalhit/[0-9]
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /gestaodp/
+RewriteRule ^entar\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /gestaodp/entar.php [L]
+</IfModule>
+
+
+# END GestaoDp

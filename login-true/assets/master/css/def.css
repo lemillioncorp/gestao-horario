@@ -1,0 +1,9 @@
+.input-pos{position: relative; top: 1em;}
+.posit{position: absolute; right: 0px; left: 0px; width: 100%; height: 100%; top: 0;}
+.dadosPosi{position: relative;margin-top: 0;top: 10px;}
+
+/*FORMATAÇÃO DA TABELA*/
+table {border-collapse: collapse; width: 100%;}
+th, td {text-align: left;padding: 8px;}
+tr:nth-child(even){background-color: #f2f2f2}
+.dados-login{background-color: aqua;}
